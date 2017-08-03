@@ -1,5 +1,10 @@
 body {
-    background-color: yellow;
+    background-color: grey;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
 }
 
 header, footer {
@@ -10,4 +15,16 @@ header, footer {
     text-align: center;
 }
 
+navigation {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
 
+article {
+    margin-left: 16px;
+    border-left: 10px solid black;
+    padding: 3em;
+    overflow: hidden;
+}
